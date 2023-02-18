@@ -26,6 +26,7 @@ article {
 }
 nav{
    text-align: center;  
+ 
 }
 article div {
   text-align: center;
@@ -34,21 +35,20 @@ article div {
 
 ol
 {
-color:red
-}
-a {
-  color:#d62828;
+
 }
 
-a:link    { }
-a:visited { }
-a:hover   { color: #f77f00; }
-a:active  { }
 p {
   line-height: 1.5;
-  text-align: center; 
   
 }
+
+#two{
+  line-height: 1.5;
+ text-align: center;
+  
+}
+
 
 /* The div container constrains the content width within the main container to 600px */
 div {
@@ -72,6 +72,18 @@ hr {
 
 .image-circle {
 border-radius: 50%;
-  color:#003049;
-  border-style:solid ;
+color:#003049;
+border-style:solid ;
+
 }
+
+a {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color:#d62828;
+}
+
+a:link    { }
+a:visited {  }
+a:hover   { color: #f77f00}
+a:active  { }
